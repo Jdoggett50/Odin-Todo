@@ -1,4 +1,3 @@
-import {buildTodo} from "./todoFactory.js"
+import { buildTodo } from "./todoFactory";
 
-const todo = buildTodo('stuff','stuff','stuff','stuff'); 
-console.log(todo)
+console.log(buildTodo())
