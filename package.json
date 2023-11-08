@@ -2,9 +2,15 @@
   "name": "odin-todo",
   "version": "1.0.0",
   "description": "This is the todo project from TOP's javascript curriculum.",
+  "private": "true",
   "main": "index.js",
+  "type": "module",
+  "build": "webpack",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
